@@ -92,10 +92,12 @@ void main() {
 
   dynamic a8 = '1';
   if (a8 == '1') {
-    print('Верно');
+    print('Верно = ${a8.runtimeType}');
   } else {
     print('Неверно');
   }
+
+  //a9.toString() == strOrInt && a.runtimeType == int
 }
 
 /* git init
